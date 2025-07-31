@@ -1,50 +1,28 @@
-# Welcome to your Expo app 👋
+# Overview
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+I love learning new technologies. In the project I'm building an application to help 
+manage cleaning businesses.
 
-## Get started
+At this point Authentication is the only functionality that has been implmented. It is currently setup to use email authentication, but it does provide account creation, signin, and signout functionality.
 
-1. Install dependencies
+I run a cleaning business and have often wished for an app that I could used to log service details and other items.
 
-   ```bash
-   npm install
-   ```
+[Software Demo Video](https://www.youtube.com/watch?v=CiyvXfljyaE)
 
-2. Start the app
+# Development Environment
 
-   ```bash
-   npx expo start
-   ```
+I used expo and react native to create an application that would work on both iOS and Android. I chose to use supabase for the authentication layer as I felt that would work well as a database and help implmenting authentication as well.
 
-In the output, you'll find options to open the app in a
+I wrote everything in typescript and even leveraged a library called native wind that allowed using tailwind in a react native application. 
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+# Useful Websites
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* [Native Wind](https://www.nativewind.dev/)
+* [Expo](https://expo.dev/)
+* [React Native](https://reactnative.dev/)
 
-## Get a fresh project
+# Future Work
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* Users need to be able to keep track of vehicle mileage.
+* Users need to be able to clock into a job and signoff on tasks completed.
+* Users need to be able notify management of inventory that is running low.
